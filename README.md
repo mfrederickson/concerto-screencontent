@@ -1,28 +1,10 @@
-# ConcertoScreencontents
-Short description and motivation.
+# Concerto Screen Content
+A Concerto Plugin that displays active subscribed content under the screen information on the screen details page.
 
 ## Usage
-How to use my plugin.
-
-## Installation
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'concerto_screencontents'
-```
-
-And then execute:
-```bash
-$ bundle
-```
-
-Or install it yourself as:
-```bash
-$ gem install concerto_screencontents
-```
-
-## Contributing
-Contribution directions go here.
+Add this gem to the Concerto Plugins via the Concerto UI.
+* Source: RubyGems
+* Name: concerto_screencontent
 
 ## License
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).

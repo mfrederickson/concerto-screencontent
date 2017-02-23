@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = ConcertoScreencontent::VERSION
   s.authors     = ['Marvin Frederickson']
   s.email       = ['marvin.frederickson@gmail.com']
-  s.homepage    = ''
+  s.homepage    = 'https://github.com/mfrederickson/concerto-screencontent'
   s.summary     = 'Display active content assigned to current screen'
   s.description = 'Display active content assigned to current screen'
   s.license     = 'MIT'

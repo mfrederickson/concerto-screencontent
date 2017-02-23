@@ -1,2 +1,2 @@
-ConcertoScreencontents::Engine.routes.draw do
+ConcertoScreencontent::Engine.routes.draw do
 end

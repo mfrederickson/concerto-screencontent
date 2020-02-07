@@ -1,6 +1,6 @@
 <!-- Begin Contents -->
 <%
-@contents = @screen.subscriptions.map { |s| s.contents }.flatten.collect! {|c| c.parent || c}.uniq
+@contents = @screen.subscriptions.where(field_id: @screen.fields.map(&:id)).map { |s| s.contents }.flatten.collect! {|c| c.parent || c}.uniq
 @contents = Kaminari.paginate_array(@contents).page(params[:page])
 
 unless @contents.empty?
